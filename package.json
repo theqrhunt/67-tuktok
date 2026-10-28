@@ -1,6 +1,6 @@
 
 {
-  "name": "tiktok-live-dashboard",
+  "name": "tiktok-live-backend",
   "version": "1.0.0",
   "private": true,
   "type": "module",
@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "express": "^5.1.0",
-    "ttl-live": "*",
-    "ws": "^8.18.3"
+    "ws": "^8.18.3",
+    "ttl-live": "git+https://github.com/nglmercer/tiktok-signer.git#main:packages/tiktok-live"
   }
 }
